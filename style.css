@@ -121,7 +121,7 @@ p{
 
 /*Responsivo*/
 
-  @media (max-width: 800px) {
+@media (max-width: 300px) {
   .cards {
     grid-template-columns: 1fr;
   }
