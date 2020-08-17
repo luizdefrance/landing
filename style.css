@@ -121,19 +121,73 @@ p{
 	text-align: center;
 }
 
-/*Responsivo*/
+/*Responsivo Banner*/
+
+@media (min-width:100px){
+	#Banner, #Banner h1, #Banner p,{
+		width:100px;
+		grid-template-columns: 1fr;
+	}
+
+}
 
 
 @media (min-width:300px){
+	#Banner, #Banner h1, #Banner p,{
+		width:300px;
+		grid-template-columns: 1fr;
+	}
+
+}
+
+
+@media (min-width:600px){
+	#Banner, #Banner h1, #Banner p{
+		width:700PX;
+		grid-template-columns: 1fr 1fr;
+	}
+
+}
+
+@media (min-width:700px){
+	#Banner, #Banner h1, #Banner p{
+		width:800PX;
+		grid-template-columns: 1fr 1fr;
+	}
+
+}
+
+@media (min-width:900px){
+	#Banner, #Banner h1, #Banner p{
+		width: auto;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+}
+
+
+
+/* Responsivo Cards Container */
+
+@media (min-width:200px){
 	.container {
-		width:400px;
+		width:200px;
 	}
 	.cards{
 		grid-template-columns: 1fr;
 	}
 }
 
-@media (min-width:700px){
+@media (min-width:300px){
+	.container {
+		width:300px;
+	}
+	.cards{
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (min-width:600px){
 	.container{
 		width:600px;
 	}
@@ -142,7 +196,7 @@ p{
 	}
 }
 
-@media (min-width:1000px){
+@media (min-width:900px){
 	.container{
 		width: 900px;
 	}
