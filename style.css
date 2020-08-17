@@ -123,26 +123,26 @@ p{
 
 /*Responsivo*/
 
-@media (min-width: 300px;) {
+
+@media (min-width:300px){
 	.container {
-		width: 400px;
+		width:400px;
 	}
-	.cards {
+	.cards{
 		grid-template-columns: 1fr;
 	}
 }
 
-@media (min-width: 700px;) {
+@media (min-width:700px){
 	.container{
-		width: 600px;
+		width:600px;
 	}
 	.cards{
 		grid-template-columns: 1fr 1fr;
 	}
 }
 
-
-@media (min-width: 1000px;) {
+@media (min-width:1000px){
 	.container{
 		width: 900px;
 	}
@@ -150,3 +150,4 @@ p{
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 }
+
