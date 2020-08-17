@@ -120,7 +120,17 @@ p{
 }
 
 /*Responsivo*/
+
+  @media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
   
+  .card-white {
+    width: auto;
+  }
+}
+
 /* Container media queries */
 
 @media (min-width: 500px) {
@@ -131,7 +141,7 @@ p{
 }
 
 
-@media (max-width: 800px) {
+@media (man-width: 800px) {
   .container {
     width: 600px;
     grid-template-columns: 1fr 1fr;
