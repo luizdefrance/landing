@@ -121,23 +121,32 @@ p{
 	text-align: center;
 }
 
-
+/*Responsivo*/
 
 @media (min-width: 300px;) {
-		.cards {
+	.container {
+		width: 400px;
+	}
+	.cards {
 		grid-template-columns: 1fr;
 	}
 }
 
 @media (min-width: 700px;) {
-		.cards{
+	.container{
+		width: 600px;
+	}
+	.cards{
 		grid-template-columns: 1fr 1fr;
 	}
 }
 
 
 @media (min-width: 1000px;) {
-		.cards{
+	.container{
+		width: 900px;
+	}
+	.cards{
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 }
