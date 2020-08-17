@@ -9,8 +9,8 @@ body{
 }
 
 h1,h2,h3{
-	color: #404042;
-    font-family: Roboto;
+	color: #404040;
+    font-family: chivo;
 }
 
  
@@ -42,31 +42,31 @@ p{
 	font-size: 45px;
 	margin: 0;
 	padding: 10px;
-	text-transform:
+	opacity: 0.7;
 }
 
 #Banner p { 
 	color: black;
 	font-size: 24px;
-	opacity: 1,7%;
+	opacity: 0.6;
  }
 
 .button-blue{ 
-	background-color: red;
-	color: white;
+	background-color: #dcd345;
+	color: #404040;
 	padding: 16px 48px;
 	border-radius: 4px;
 	display: inline-block;
 	text-decoration: none;
-	transition: 2s;
+	transition: 1s;
 	font-size: 20px;
 	font-weight: bold;
 	transform: scale(1);
  }
 
 .button-blue:hover {
-	background-color: blue;
-	color: white;
+	background-color: #c6bd3e;
+	color: #404040;
 
 }
 
@@ -112,16 +112,16 @@ p{
 }
 
 .footer{
-	background: black;
-	color: white;
-	padding: 10px;
+	background: #f5eb4d;
+	color: 404040;
+	padding: 2px;
 	text-align: center;
 
 }
 
 /*Responsivo*/
 
-@media (max-width: 300px) {
+@media (max-width: 800px) {
   .cards {
     grid-template-columns: 1fr;
   }
@@ -130,10 +130,9 @@ p{
     width: auto;
   }
 }
-
+  
 /* Container media queries */
-
-@media (min-width: 500px) {
+@media (min-width: 300px) {
   .container {
     width: 400px;
     grid-template-columns: 1fr;
@@ -141,7 +140,7 @@ p{
 }
 
 
-@media (man-width: 800px) {
+@media (min-width: 800px) {
   .container {
     width: 600px;
     grid-template-columns: 1fr 1fr;
